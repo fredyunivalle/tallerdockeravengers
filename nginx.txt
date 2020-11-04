@@ -1,0 +1,4 @@
+apk add nginx
+rc-service nginx start
+cp /home/estudiante/default.conf /etc/nginx/conf.d/
+rc-service nginx restart
